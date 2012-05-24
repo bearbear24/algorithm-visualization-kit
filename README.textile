@@ -1,5 +1,5 @@
 h1. Overview
 
-This project is a part of the *Open Labs* project. It aims to build a graphic-driven library for algorithm visualization. It is similar to the one developed by "David Galles":http://www.cs.usfca.edu/~galles/ of "University of San Francisco":http://www.usfca.edu [1], but I tried to make it simpler and easier to use.
+This project is a part of the *Open Labs* project. It aims to build a graphic-driven library for algorithm visualization. It is similar to the one developed by "David Galles":http://www.cs.usfca.edu/~galles/ of University of San Francisco[1], but I tried to make it simpler and easier to use.
 
 fn1. "Data Structure Visualizations", hosted at "http://www.cs.usfca.edu/~galles/visualization/Algorithms.html":http://www.cs.usfca.edu/~galles/visualization/Algorithms.html.
