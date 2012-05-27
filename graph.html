@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title>Algorithm Battlefield</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<style type="text/css">
+		/* customized doc style goes here */
+		.indent1 {
+			text-indent: 2em;
+		}
+		.indent2 {
+			text-indent: 4em;
+		}
+		.indent3 {
+			text-indent: 6em;
+		}
+
+		#algorithm-code {
+			padding-top: 20px;
+		}
+
+		.pseudo-code {
+			font-size: 18px;
+			font-family: "Palatino Linotype", Times, Georgia, serif;
+			margin-top: 10px;
+		}
+
+		.pseudo-code li {
+			padding: 5px 0;
+		}
+
+		.highlighted {
+			background-color: #ffff99;
+			color: #b22222;
+		}
+
+		.normal {
+			background-color: #ffffff;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div id="algorithm-canvas" class="span8"></div>
+				<div id="algorithm-code" class="span4">
+					<h3>Algorithm: Bubble Sort</h3>
+					<ol id="bubble-sort-list" class="pseudo-code">
+						<li id="for1"><b>for</b> <i>i</i> = 1 <b>to</b> <i>A</i>.<i>length</i> &minus; 1</li>
+						<li id="for2" class="indent1"><b>for</b> <i>j</i> = <i>A</i>.<i>length</i> <b>downto</b> <i>i</i> + 1</li>
+						<li id="if" class="indent2"><b>if</b> <i>A</i>[<i>j</i>] &lt; <i>A</i>[<i>j</i> &minus; 1]</li>
+						<li id="swap" class="indent3">exchange <i>A</i>[<i>j</i>] with <i>A</i>[<i>j</i> &minus; 1]</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="assets/js/raphael.js"></script>
+		<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/application.js"></script>
+	</body>
+</html>

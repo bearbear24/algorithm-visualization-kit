@@ -95,7 +95,7 @@ NodeManager.prototype = {
 
 		var linkPath = ["M", x0, y0, "C", xC1, yC1, xC2, yC2, xEnd, yEnd].join(",");
 
-		return this.paper.path(linkPath);
+		return this.paper.path(linkPath).attr({"arrow-end": "block-wide-long"});
 
 	}
 
