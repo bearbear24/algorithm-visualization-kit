@@ -1,5 +1,7 @@
 # this project
 assets/js/raphael.js
+assets/coffeescript/
+bootstrap/
 
 #################
 ## Eclipse
